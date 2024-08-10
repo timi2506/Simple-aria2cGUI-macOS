@@ -30,3 +30,5 @@ Also make sure to install this shortcut and dont change its name: https://github
 
 Video Tutorials and Showcases: 
 https://youtu.be/VeYgxNo7ou8
+
+Icons Figma file: https://www.figma.com/design/uXJEFEaV7kPikO7cX3AZi1/aria2c-GUI-icons?node-id=0-1&t=BIDUGTwWonObtyjQ-1
