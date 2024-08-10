@@ -16,11 +16,16 @@ struct ContentView: View {
             
             HStack {
                 Button("Quit") {
-                    NSApplication.shared.terminate(nil) // Terminate the application
+                    NSApplication.shared.terminate(nil)
                 }
                 Button("Continue") {
                     if !url.isEmpty {
-                        isNextWindowPresented = true
+                        if let defaultPath = UserDefaults.standard.string(forKey: "defaultPath") {
+                            // Use the default path and skip Window 2
+                            executeAria2Download(url: url, path: defaultPath)
+                        } else {
+                            isNextWindowPresented = true
+                        }
                     }
                 }
                 .disabled(url.isEmpty)
@@ -31,6 +36,15 @@ struct ContentView: View {
         .frame(width: 400, height: 150)
         .sheet(isPresented: $isNextWindowPresented) {
             PathSelectionView(url: url)
+        }
+    }
+
+    func executeAria2Download(url: String, path: String) {
+        let command = "/opt/homebrew/bin/aria2c \"\(url)\" --dir \"\(path)\""
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(command, forType: .string)
+        if let shortcutsURL = URL(string: "shortcuts://run-shortcut?name=DO-NOT-CHANGE_aria2c_GUI_downloader") {
+            NSWorkspace.shared.open(shortcutsURL)
         }
     }
 }

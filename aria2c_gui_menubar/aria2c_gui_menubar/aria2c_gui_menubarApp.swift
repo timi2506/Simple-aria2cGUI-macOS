@@ -6,14 +6,7 @@ struct Aria2cGuiMenubarApp: App {
 
     var body: some Scene {
         WindowGroup {
-            EmptyView() // Ensures no visible window
-        }
-        .commands {
-            CommandGroup(replacing: .appTermination) {
-                Button("Quit") {
-                    NSApp.terminate(nil)
-                }
-            }
+            EmptyView() // No main window needed
         }
     }
 }
