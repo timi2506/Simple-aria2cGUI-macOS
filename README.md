@@ -27,3 +27,5 @@ make sure to replace FILEPATH with the Filepath that "which aria2c" returned
 
 Also make sure to install this shortcut and dont change its name: https://github.com/timi2506/Shortcut-for-aria2cGUI/releases/latest
 
+Video Tutorials and Showcases: 
+https://youtu.be/VeYgxNo7ou8
