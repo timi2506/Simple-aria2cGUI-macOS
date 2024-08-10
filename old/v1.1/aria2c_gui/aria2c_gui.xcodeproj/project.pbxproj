@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8D493B882C677D2200C0330C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D493B6E2C677D1C00C0330C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D493B752C677D1C00C0330C;
+			remoteInfo = aria2c_gui;
+		};
+		8D493B922C677D2200C0330C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D493B6E2C677D1C00C0330C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D493B752C677D1C00C0330C;
+			remoteInfo = aria2c_gui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D493BA62C67810500C0330C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D493B762C677D1C00C0330C /* aria2c GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aria2c GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D493B872C677D2200C0330C /* aria2c_guiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aria2c_guiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D493B912C677D2200C0330C /* aria2c_guiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aria2c_guiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D493BA82C67810500C0330C /* aria2c_executer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aria2c_executer; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8D493B782C677D1C00C0330C /* aria2c_gui */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = aria2c_gui;
+			sourceTree = "<group>";
+		};
+		8D493B8A2C677D2200C0330C /* aria2c_guiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = aria2c_guiTests;
+			sourceTree = "<group>";
+		};
+		8D493B942C677D2200C0330C /* aria2c_guiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = aria2c_guiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D493B732C677D1C00C0330C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493B842C677D2200C0330C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493B8E2C677D2200C0330C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493BA52C67810500C0330C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D493B6D2C677D1C00C0330C = {
+			isa = PBXGroup;
+			children = (
+				8D493B782C677D1C00C0330C /* aria2c_gui */,
+				8D493B8A2C677D2200C0330C /* aria2c_guiTests */,
+				8D493B942C677D2200C0330C /* aria2c_guiUITests */,
+				8D493B772C677D1C00C0330C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D493B772C677D1C00C0330C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D493B762C677D1C00C0330C /* aria2c GUI.app */,
+				8D493B872C677D2200C0330C /* aria2c_guiTests.xctest */,
+				8D493B912C677D2200C0330C /* aria2c_guiUITests.xctest */,
+				8D493BA82C67810500C0330C /* aria2c_executer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D493B752C677D1C00C0330C /* aria2c GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D493B9B2C677D2200C0330C /* Build configuration list for PBXNativeTarget "aria2c GUI" */;
+			buildPhases = (
+				8D493B722C677D1C00C0330C /* Sources */,
+				8D493B732C677D1C00C0330C /* Frameworks */,
+				8D493B742C677D1C00C0330C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8D493B782C677D1C00C0330C /* aria2c_gui */,
+			);
+			name = "aria2c GUI";
+			packageProductDependencies = (
+			);
+			productName = aria2c_gui;
+			productReference = 8D493B762C677D1C00C0330C /* aria2c GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D493B862C677D2200C0330C /* aria2c_guiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D493B9E2C677D2200C0330C /* Build configuration list for PBXNativeTarget "aria2c_guiTests" */;
+			buildPhases = (
+				8D493B832C677D2200C0330C /* Sources */,
+				8D493B842C677D2200C0330C /* Frameworks */,
+				8D493B852C677D2200C0330C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D493B892C677D2200C0330C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D493B8A2C677D2200C0330C /* aria2c_guiTests */,
+			);
+			name = aria2c_guiTests;
+			packageProductDependencies = (
+			);
+			productName = aria2c_guiTests;
+			productReference = 8D493B872C677D2200C0330C /* aria2c_guiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D493B902C677D2200C0330C /* aria2c_guiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D493BA12C677D2200C0330C /* Build configuration list for PBXNativeTarget "aria2c_guiUITests" */;
+			buildPhases = (
+				8D493B8D2C677D2200C0330C /* Sources */,
+				8D493B8E2C677D2200C0330C /* Frameworks */,
+				8D493B8F2C677D2200C0330C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D493B932C677D2200C0330C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D493B942C677D2200C0330C /* aria2c_guiUITests */,
+			);
+			name = aria2c_guiUITests;
+			packageProductDependencies = (
+			);
+			productName = aria2c_guiUITests;
+			productReference = 8D493B912C677D2200C0330C /* aria2c_guiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8D493BA72C67810500C0330C /* aria2c_executer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D493BAC2C67810500C0330C /* Build configuration list for PBXNativeTarget "aria2c_executer" */;
+			buildPhases = (
+				8D493BA42C67810500C0330C /* Sources */,
+				8D493BA52C67810500C0330C /* Frameworks */,
+				8D493BA62C67810500C0330C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aria2c_executer;
+			packageProductDependencies = (
+			);
+			productName = aria2c_executer;
+			productReference = 8D493BA82C67810500C0330C /* aria2c_executer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D493B6E2C677D1C00C0330C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8D493B752C677D1C00C0330C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8D493B862C677D2200C0330C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8D493B752C677D1C00C0330C;
+					};
+					8D493B902C677D2200C0330C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8D493B752C677D1C00C0330C;
+					};
+					8D493BA72C67810500C0330C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 8D493B712C677D1C00C0330C /* Build configuration list for PBXProject "aria2c_gui" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D493B6D2C677D1C00C0330C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D493B772C677D1C00C0330C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D493B752C677D1C00C0330C /* aria2c GUI */,
+				8D493B862C677D2200C0330C /* aria2c_guiTests */,
+				8D493B902C677D2200C0330C /* aria2c_guiUITests */,
+				8D493BA72C67810500C0330C /* aria2c_executer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D493B742C677D1C00C0330C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493B852C677D2200C0330C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493B8F2C677D2200C0330C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D493B722C677D1C00C0330C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493B832C677D2200C0330C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493B8D2C677D2200C0330C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D493BA42C67810500C0330C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D493B892C677D2200C0330C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D493B752C677D1C00C0330C /* aria2c GUI */;
+			targetProxy = 8D493B882C677D2200C0330C /* PBXContainerItemProxy */;
+		};
+		8D493B932C677D2200C0330C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D493B752C677D1C00C0330C /* aria2c GUI */;
+			targetProxy = 8D493B922C677D2200C0330C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D493B992C677D2200C0330C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D493B9A2C677D2200C0330C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8D493B9C2C677D2200C0330C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aria2c_gui/aria2c_gui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aria2c_gui/Preview Content\"";
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "aria2c GUI";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timi2506.aria2c-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D493B9D2C677D2200C0330C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aria2c_gui/aria2c_gui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aria2c_gui/Preview Content\"";
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "aria2c GUI";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timi2506.aria2c-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8D493B9F2C677D2200C0330C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timi2506.aria2c-guiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aria2c_gui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aria2c_gui";
+			};
+			name = Debug;
+		};
+		8D493BA02C677D2200C0330C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timi2506.aria2c-guiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aria2c_gui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aria2c_gui";
+			};
+			name = Release;
+		};
+		8D493BA22C677D2200C0330C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timi2506.aria2c-guiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = aria2c_gui;
+			};
+			name = Debug;
+		};
+		8D493BA32C677D2200C0330C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "timi2506.aria2c-guiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = aria2c_gui;
+			};
+			name = Release;
+		};
+		8D493BAD2C67810500C0330C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D493BAE2C67810500C0330C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44U4N2P8L5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D493B712C677D1C00C0330C /* Build configuration list for PBXProject "aria2c_gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D493B992C677D2200C0330C /* Debug */,
+				8D493B9A2C677D2200C0330C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D493B9B2C677D2200C0330C /* Build configuration list for PBXNativeTarget "aria2c GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D493B9C2C677D2200C0330C /* Debug */,
+				8D493B9D2C677D2200C0330C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D493B9E2C677D2200C0330C /* Build configuration list for PBXNativeTarget "aria2c_guiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D493B9F2C677D2200C0330C /* Debug */,
+				8D493BA02C677D2200C0330C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D493BA12C677D2200C0330C /* Build configuration list for PBXNativeTarget "aria2c_guiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D493BA22C677D2200C0330C /* Debug */,
+				8D493BA32C677D2200C0330C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D493BAC2C67810500C0330C /* Build configuration list for PBXNativeTarget "aria2c_executer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D493BAD2C67810500C0330C /* Debug */,
+				8D493BAE2C67810500C0330C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D493B6E2C677D1C00C0330C /* Project object */;
+}
