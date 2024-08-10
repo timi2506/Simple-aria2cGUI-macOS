@@ -17,6 +17,7 @@ https://github.com/user-attachments/assets/1ca06332-aaa7-4b5f-a979-1a5eab0804f4
 
 
 
+--- UPDATE: YOU CAN SKIP DOING THIS BY USING THE LATEST EXPERIMENTAL BUILD AT YOUR OWN RISK https://github.com/timi2506/Simple-aria2cGUI-macOS/releases/tag/EXPERIMENTAL BUT MAKE SURE TO READ THE RELEASE NOTES FOR INSTRUCTIONS ---
 To use this app you need to a) install aria2 using brew
 (brew install aria2)
 and b) make sure that aria2c (the executable of aria2) is stored in "/opt/homebrew/bin/aria2c".
