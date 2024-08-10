@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8DE3C7D92C678FDF007BEE89 /* aria2c_gui_menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aria2c_gui_menubar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE3C7D92C678FDF007BEE89 /* aria2c GUI MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aria2c GUI MenuBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE3C7EA2C678FE3007BEE89 /* aria2c_gui_menubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aria2c_gui_menubarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE3C7F42C678FE3007BEE89 /* aria2c_gui_menubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aria2c_gui_menubarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		8DE3C7DA2C678FDF007BEE89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DE3C7D92C678FDF007BEE89 /* aria2c_gui_menubar.app */,
+				8DE3C7D92C678FDF007BEE89 /* aria2c GUI MenuBar.app */,
 				8DE3C7EA2C678FE3007BEE89 /* aria2c_gui_menubarTests.xctest */,
 				8DE3C7F42C678FE3007BEE89 /* aria2c_gui_menubarUITests.xctest */,
 			);
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DE3C7D82C678FDF007BEE89 /* aria2c_gui_menubar */ = {
+		8DE3C7D82C678FDF007BEE89 /* aria2c GUI MenuBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DE3C7FE2C678FE3007BEE89 /* Build configuration list for PBXNativeTarget "aria2c_gui_menubar" */;
+			buildConfigurationList = 8DE3C7FE2C678FE3007BEE89 /* Build configuration list for PBXNativeTarget "aria2c GUI MenuBar" */;
 			buildPhases = (
 				8DE3C7D52C678FDF007BEE89 /* Sources */,
 				8DE3C7D62C678FDF007BEE89 /* Frameworks */,
@@ -110,11 +110,11 @@
 			fileSystemSynchronizedGroups = (
 				8DE3C7DB2C678FDF007BEE89 /* aria2c_gui_menubar */,
 			);
-			name = aria2c_gui_menubar;
+			name = "aria2c GUI MenuBar";
 			packageProductDependencies = (
 			);
 			productName = aria2c_gui_menubar;
-			productReference = 8DE3C7D92C678FDF007BEE89 /* aria2c_gui_menubar.app */;
+			productReference = 8DE3C7D92C678FDF007BEE89 /* aria2c GUI MenuBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8DE3C7E92C678FE3007BEE89 /* aria2c_gui_menubarTests */ = {
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DE3C7D82C678FDF007BEE89 /* aria2c_gui_menubar */,
+				8DE3C7D82C678FDF007BEE89 /* aria2c GUI MenuBar */,
 				8DE3C7E92C678FE3007BEE89 /* aria2c_gui_menubarTests */,
 				8DE3C7F32C678FE3007BEE89 /* aria2c_gui_menubarUITests */,
 			);
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		8DE3C7EC2C678FE3007BEE89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DE3C7D82C678FDF007BEE89 /* aria2c_gui_menubar */;
+			target = 8DE3C7D82C678FDF007BEE89 /* aria2c GUI MenuBar */;
 			targetProxy = 8DE3C7EB2C678FE3007BEE89 /* PBXContainerItemProxy */;
 		};
 		8DE3C7F62C678FE3007BEE89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DE3C7D82C678FDF007BEE89 /* aria2c_gui_menubar */;
+			target = 8DE3C7D82C678FDF007BEE89 /* aria2c GUI MenuBar */;
 			targetProxy = 8DE3C7F52C678FE3007BEE89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,6 +401,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "aria2c GUI MenuBar";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -429,6 +430,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "aria2c GUI MenuBar";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -523,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DE3C7FE2C678FE3007BEE89 /* Build configuration list for PBXNativeTarget "aria2c_gui_menubar" */ = {
+		8DE3C7FE2C678FE3007BEE89 /* Build configuration list for PBXNativeTarget "aria2c GUI MenuBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE3C7FF2C678FE3007BEE89 /* Debug */,

@@ -11,7 +11,7 @@ struct PathSelectionView: View {
     var body: some View {
         VStack {
             HStack {
-                TextField("Select path", text: $path)
+                TextField("Choose Download-Location", text: $path)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 
                 Button("Browse") {
